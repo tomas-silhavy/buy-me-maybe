@@ -1,6 +1,8 @@
 # Read Me 
 
-Simple app to show case simple recommending "system" for an e-shop
+Simple app to show case simple recommending "system" for an e-shop.
+App uses MySql DB. All needed docker commands along with DDL and test data 
+is in folder `./docker-db/`
 
 There 4 rest enpoints
 
