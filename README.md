@@ -26,3 +26,18 @@ There 4 rest enpoints
   
   * `DELETE` `http://localhost:8080/customer/fav/{customer-id}/{item-id}`
      >Removes given item from favourites list of given customer 
+      
+#### 4 weighted recommending systems
+   * DefaultRecommender
+   * BestSellingRecommender
+   * NeighbouringRecommender
+   * OthersFavsRecommender    
+                                                                           
+#### Test data (all ids sequential):
+   
+   * 500 customers
+   * 3943 customer_fav_item - randomly distributed favourite customer items
+   * 500 items
+   * 300 orders - randomly distributed among customers
+   * 9972 order_items        - randomly distributed
+                                                                              
