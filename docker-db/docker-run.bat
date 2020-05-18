@@ -1,0 +1,1 @@
+docker run -d -p 6033:3306 --name=bmm-mysql --env="MYSQL_ROOT_PASSWORD=root" --env="MYSQL_PASSWORD=root" --env="MYSQL_DATABASE=buy-me-maybe" mysql

@@ -1,0 +1,1 @@
+docker exec bmm-mysql /usr/bin/mysqldump -uroot -proot buy-me-maybe > dump.sql
